@@ -12,7 +12,6 @@ body{
 }
 .container{
     Width: 1160px;
-    Height: 44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,8 +21,9 @@ Header Section Styles
 ------------------- */
 header{
     background-color: #2D25A0;
+    height: 677px;
 }
-.top-menu{
+.top-menu, .live-section{
     display: flex;
     justify-content: center;
 }
@@ -40,7 +40,7 @@ nav a{
 .home-no-padding{
     padding-left: 0;
 }
-.login a{
+.login a, .wacth-live a{
     color: #ffffff;
     font-weight: 500;
     font-size: 16px;
@@ -50,4 +50,25 @@ nav a{
 }
 .login a i{
     margin-right: 8px;
+}
+
+/* Live Section Styles */
+.live-section{
+    margin-top: 49px;
+}
+.wacth-live{
+    margin-right: 102px;
+}
+.kick-football img{
+    width: 556.01px;
+    height: 438px;
+}
+.wacth-live h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.wacth-live i{
+    margin-left: 8px;
 }
